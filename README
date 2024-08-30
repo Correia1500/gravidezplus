@@ -1,0 +1,64 @@
+# README - GravidezPlus
+
+Este é um guia rápido para ajudar os estudantes a clonar o repositório GravidezPlus e criar suas próprias branches para trabalhar.
+
+## Clonando o Repositório
+
+1. Abra o terminal ou prompt de comando.
+2. Navegue até o diretório onde você deseja clonar o repositório.
+3. Execute o seguinte comando para clonar o repositório:
+
+    ```
+    git clone https://github.com/seu-usuario/gravidezplus.git
+    ```
+
+4. Aguarde até que o processo de clonagem seja concluído.
+
+## Criando uma Branch
+
+1. Navegue até o diretório do projeto:
+
+    ```
+    cd gravidezplus
+    ```
+
+2. Crie uma nova branch com o seu nome:
+
+    ```
+    git checkout -b nome-da-sua-branch
+    ```
+
+3. Agora você está na sua nova branch e pode começar a trabalhar nela.
+
+## Trabalhando na sua Branch
+
+1. Faça as alterações necessárias nos arquivos do projeto.
+2. Adicione as alterações para serem commitadas:
+
+    ```
+    git add .
+    ```
+
+3. Faça o commit das alterações:
+
+    ```
+    git commit -m "Descrição das alterações"
+    ```
+
+4. Envie as alterações para o repositório remoto:
+
+    ```
+    git push origin nome-da-sua-branch
+    ```
+
+5. Agora você pode abrir um pull request para mesclar suas alterações na branch `main`.
+
+6. Para atualizar sua branch local com as alterações da branch `main`, execute o seguinte comando:
+
+    ```
+    git pull origin main
+    ```
+
+Isso garantirá que você tenha as últimas alterações antes de continuar trabalhando na sua branch.
+
+Lembre-se de sempre atualizar sua branch local antes de começar a trabalhar para evitar conflitos
