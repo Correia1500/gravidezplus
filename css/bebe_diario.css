@@ -1,8 +1,110 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: large;
-    background-color: #f9f9f9;
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    padding-bottom: 20rem;
+    
 }
 
+h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 5.5rem;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 5rem;
+}
+
+/* Seções */
+section {
+    margin-bottom: 1rem;
+}
+
+section h4 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #34495e;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+input[type="number"], 
+input[type="text"] {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 1rem;
+    font-size: 2rem;
+    width: 5rem;
+}
+
+input[type="text"] {
+    width: 80%;
+}
+
+/* Estilos de layout */
+section input[type="checkbox"] + h4,
+section input[type="checkbox"] + label h4 {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+section input[type="number"],
+section input[type="text"] {
+    margin-bottom: 10px;
+}
+
+/* Ajustando espaçamento para os grupos de campos */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Ajustes para inputs de medicação */
+section.medications label {
+    display: flex;
+    align-items: center;
+}
+
+section.medications input[type="text"] {
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+/* Estilos para input de sintoma e irritação */
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
