@@ -4,84 +4,89 @@
     <meta charset="UTF-8">
     <title>Diário - Gravidez Plus</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bebe_diario.css">
 </head>
 <body>
     <header>
-        <img src="img/logo.png" alt="logo">
+        <img src="img/bebe_icon.png" alt="logo">
         <h1>Diário</h1>
-        <nav>
-            <h2>Horas de sono <input>:<input></h2>
-            <h2>Secreção</h2>
-                    <input type="checkbox">Coriza
-                    <input type="checkbox">Catarro
-            <h2>Feses</h2>
-            <ul>
-                <li><h3>Cor</h3></li>
-                <li><input type="checkbox">Marrom</li>
-                <li><input type="checkbox">Verde</li>
-                <li><input type="checkbox">Amarela</li>
-                <li><input type="checkbox">Vermelha</li>
-                <li><input type="checkbox">Preta</li>
-            </ul>
-            <ul>
-                <li><h3>Consistência</h3></li>
-                <li><input type="checkbox">Fragmentos duros</li>
-                <li><input type="checkbox">Fragmentos esfarrapdos</li>
-                <li><input type="checkbox">Grumos</li>
-                <li><input type="checkbox">Liso</li>
-                <li><input type="checkbox">Pedaços esfarrapados</li>
-                <li><input type="checkbox">Líquida</li>
-            </ul>
-            <h2>Medicações</h2>
-                <ul>
-                <li><input type="checkbox"><input></li>
-                <li><input type="checkbox"><input></li>
-                <li><input type="checkbox"><input></li>
-                    </ul>
-            <h2>Sintomas</h2>
-                <ul>
-                    <li><input type="checkbox">Febre</li>
-                    <li><input type="checkbox">Dor de Cabeça</li>
-                    <li><input type="checkbox">Inchaço</li>
-                    <li><input type="checkbox">Cólica</li>
-                    <li><input type="checkbox">Vômito</li>
-                </ul>
-            <h2>Irritações</h2>
-                <ul>
-                    <li><input type="checkbox">Assadura de frauda</li>
-                    <li><input type="checkbox">Dermatite atópica</li>
-                    <li><input type="checkbox">Brotoeja</li>
-                    <li><input type="checkbox">Reação alérgica</li>
-                    <li><input type="checkbox">Vermelhidão</li>
-                    <li><input type="checkbox">Queimadura</li>
-                    <li><input type="checkbox">Irritação ocular</li>
-                    <li><input type="checkbox">Candidíase</li>
-                </ul>
-        </nav>
     </header>
-    <main>
-        <!-- Conteúdo específico da página -->
+    <main>        
+        <h2>Horas de sono</h2>
+        <input type="number" placeholder="Horas">:<input type="number" placeholder="Minutos">
+    
+        <h2>Secreção</h2>
+        <ul>
+            <li><input type="checkbox"> Coriza</li>
+            <li><input type="checkbox"> Catarro</li>
+        </ul>
+    
+        <h2>Fezes</h2>
+        <h3>Cor</h3>
+        <ul>
+            <li><input type="checkbox"> Marrom</li>
+            <li><input type="checkbox"> Verde</li>
+            <li><input type="checkbox"> Amarela</li>
+            <li><input type="checkbox"> Vermelha</li>
+            <li><input type="checkbox"> Preta</li>
+        </ul>
+    
+        <h3>Consistência</h3>
+        <ul>
+            <li><input type="checkbox"> Fragmentos duros</li>
+            <li><input type="checkbox"> Fragmentos esfarrapados</li>
+            <li><input type="checkbox"> Grumos</li>
+            <li><input type="checkbox"> Liso</li>
+            <li><input type="checkbox"> Pedaços esfarrapados</li>
+            <li><input type="checkbox"> Líquida</li>
+        </ul>
+    
+        <h2>Medicações</h2>
+        <ul>
+            <li><input type="checkbox"> <input type="text" placeholder="Nome da Medicação"></li>
+            <li><input type="checkbox"> <input type="text" placeholder="Nome da Medicação"></li>
+            <li><input type="checkbox"> <input type="text" placeholder="Nome da Medicação"></li>
+        </ul>
+    
+        <h2>Sintomas</h2>
+        <ul>
+            <li><input type="checkbox"> Febre</li>
+            <li><input type="checkbox"> Dor de Cabeça</li>
+            <li><input type="checkbox"> Inchaço</li>
+            <li><input type="checkbox"> Cólica</li>
+            <li><input type="checkbox"> Vômito</li>
+        </ul>
+    
+        <h2>Irritações</h2>
+        <ul>
+            <li><input type="checkbox"> Assadura de fralda</li>
+            <li><input type="checkbox"> Dermatite atópica</li>
+            <li><input type="checkbox"> Brotoeja</li>
+            <li><input type="checkbox"> Reação alérgica</li>
+            <li><input type="checkbox"> Vermelhidão</li>
+            <li><input type="checkbox"> Queimadura</li>
+            <li><input type="checkbox"> Irritação ocular</li>
+            <li><input type="checkbox"> Candidíase</li>
+        </ul>        
     </main>
     <footer>
-        <nav>
-            <a href="index.html">
-                <img src="img/home_icon.png" alt="Home Icon">
-                Home
-            </a>
-            <a href="mae.html">
-                <img src="img/mae_icon.png" alt="Mãe Icon">
-                Mãe
-            </a>
-            <a href="bebe.html">
-                <img src="img/bebe_icon.png" alt="Bebê Icon">
-                Bebê
-            </a>
-            <a href="medico.html">
-                <img src="img/medico_icon.png" alt="Médico Icon">
-                Médico
-            </a>
-        </nav>
+        <a href="index.html">
+            <img src="img/home_icon.png" alt="Home Icon">
+            <h2>Home</h2>
+        </a>
+        <a href="mae.html">
+            <img src="img/mae_icon.png" alt="Mãe Icon">
+            <h2>Mãe</h2>
+        </a>
+        <a href="bebe.html">
+            <img src="img/bebe_icon.png" alt="Bebê Icon">
+            <h2>Bebê</h2>
+        </a>
+        <a href="medico.html">
+            <img src="img/medico_icon.png" alt="Médico Icon">
+            <h2>Médico</h2>
+        </a>
     </footer>
 </body>
 </html>
