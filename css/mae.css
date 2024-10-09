@@ -14,17 +14,6 @@ main img{
     height: 20rem;
 }
 
-footer {
-    display: flex;
-    background-color: #f8f8f8;
-    padding: 1rem;
-    justify-content: space-evenly;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    border-top: 0.2rem solid #333;
-}
-
 .retangulo{
     display: flex;
     flex-direction: column;
