@@ -3,9 +3,8 @@ header {
     align-items: center;
     padding: 1rem;
     background-color: #D7CCF1;
-    /* justify-content: space-evenly; */
     flex-direction: row;
-    border-bottom: 0.2rem solid #333;
+    border-bottom: 0.2rem solid black;
 }
 
 header img {
@@ -16,10 +15,11 @@ header img {
 }
 
 header h1 {
+    font-family: 'Poppins',sans-serif;
     margin-right: 1.9rem;
-    font-size: 2rem;
+    font-size: 3rem;
     justify-content: center;
-    color: #333;
+    color: black;
 }
 
 footer {
@@ -30,13 +30,13 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    border-top: 0.2rem solid #333;
+    border-top: 0.2rem solid black;
 }
 
 
 footer a {
     text-decoration: none;
-    color: #333;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
