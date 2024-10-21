@@ -3,42 +3,42 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 7rem;
 }
 main h2{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 main h3{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 section{
     flex-direction: row;
 }
 
-.retangulo2{
+.retangulo{
+    background-color: #FFF7D5;
     display: flex;
-    flex-direction:row;
-    align-items:flex-start;
+    flex-direction: row;
+    align-items: center;
     width: 90%;
     min-width: 80px;
     min-height: 80px;
     border: 0.1rem solid black;
-    margin: 1rem;
+    margin: 0.5rem;
 } 
 
 .medico {
-    width: 10rem;
-    height: 10rem;
+    width: 4rem;
+    height: 4rem;
     margin-right: 2rem;
 }
 
 .estrela {
-    width: 5rem;
-    height: 5rem;
-    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
 }
 
 .linha {

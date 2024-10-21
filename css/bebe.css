@@ -1,29 +1,26 @@
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    padding: 2rem;
-    border-radius: 1rem;
+    align-items: center; 
     text-align: center;
-}
-
-section img {
-    width: 10rem;
-    height: 10rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-
+    margin-top: 1rem;
 }
 
 section h2 {
     position: absolute;
-    margin-left: 20rem;
+    margin-left: 11rem;
     transform: translateX(-50%);
-    font-size: 3rem;
+}
+
+main img{
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem;
+}
+
+main h2{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.2rem;
 }
 
 .retangulo{
@@ -35,6 +32,6 @@ section h2 {
     min-width: 80px;
     min-height: 80px;
     border: 0.1rem solid black;
-    margin: 1rem;
+    margin: 0.5rem;
 } 
 
