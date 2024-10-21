@@ -1,9 +1,11 @@
 header {
     display: flex;
+    
     align-items: center;
     background-color: #D7CCF1;
     flex-direction: row;
     border-bottom: 0.2rem solid black;
+
 }
 
 header img {

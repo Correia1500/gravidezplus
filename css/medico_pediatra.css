@@ -1,44 +1,51 @@
 
-main{
+main {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 main h2{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 main h3{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
-section{
-    flex-direction: row;
+section img {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+
 }
 
 .retangulo{
     background-color: #FFF7D5;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction:row;
+    align-items:flex-start;
     width: 90%;
     min-width: 80px;
     min-height: 80px;
     border: 0.1rem solid black;
-    margin: 0.5rem;
+    margin: 1rem;
 } 
 
 .medico {
-    width: 4rem;
-    height: 4rem;
+    width: 10rem;
+    height: 10rem;
     margin-right: 2rem;
 }
 
 .estrela {
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.5rem;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
 }
 
 .linha {
@@ -58,9 +65,25 @@ section{
 ul{
     display: flex;
     flex-direction: column;
+    
 }
 
 li{
     display: flex;
     flex-direction: row;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+}
+
+section ul li img{ 
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    
+        
+    
 }
