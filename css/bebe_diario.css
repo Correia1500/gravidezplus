@@ -10,7 +10,6 @@ main {
     flex-direction: column;
     max-width: 100%;
     margin: 0;
-    /* padding: 10px; */
     background-color: #fff;
     padding-bottom: 10rem;
     
@@ -18,14 +17,12 @@ main {
 
 h2 {
     color: #2c3e50;
-    /* margin-bottom: 10px; */
     font-size: 1.5rem;
     margin-left: 0.5rem;
 }
 
 h3 {
     color: #2c3e50;
-    /* margin-bottom: 10px; */
     font-size: 1.2rem;
     margin-left: 0.8rem;
     margin-top: 0.5rem;
@@ -56,7 +53,8 @@ input[type="checkbox"] {
     height: 1rem;
     margin-top: 0.5rem;
     margin-right: 0.5rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 input[type="number"], 
@@ -65,20 +63,21 @@ input[type="text"] {
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 1rem;
-    width: 5rem;
+    width: 9rem;
+    margin-top: 0.5rem;
 }
 
 /* Estilos de layout */
 section input[type="checkbox"] + h4,
 section input[type="checkbox"] + label h4 {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 0.5rem;
     vertical-align: middle;
 }
 
 section input[type="number"],
 section input[type="text"] {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 /* Ajustando espaçamento para os grupos de campos */
@@ -90,7 +89,7 @@ fieldset {
 
 legend {
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 /* Ajustes para inputs de medicação */
@@ -100,7 +99,7 @@ section.medications label {
 }
 
 section.medications input[type="text"] {
-    margin-left: 10px;
+    margin-left: 1rem;
     flex-grow: 1;
 }
 
