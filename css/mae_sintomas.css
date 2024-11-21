@@ -15,24 +15,36 @@ main h2{
     margin: 0.5rem;
 }
 
-input{
-    width: 35rem;
-    height: 3rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border: 0.2rem solid black ;
-
-}
-
-
-.retangulo{
+.retangulo {
     display: flex;
     background-color: #b2e5c3;
     flex-direction: row;
     align-items: center;
-    width: 95%;
+    width: 80%;
     min-width: 80px;
     min-height: 80px;
     border: 0.1rem solid black;
     margin: 1rem;
-} 
+    padding: 1rem; 
+}
+
+input[type="text"] {
+    width: 80%; 
+    padding: 0.5rem;
+    margin-right: 1rem; 
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+}
+
+#enviarButton {
+    padding: 0.5rem 1rem;
+    background-color: #808080; 
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#enviarButton:hover {
+    background-color: #666666; 
+}
